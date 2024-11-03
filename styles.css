@@ -48,14 +48,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #1a1480;
+    color: #48afcf;
     text-decoration: none;
     font-weight: 400;
     transition: color 0.3s;
 }
 
 nav ul li a.active, nav ul li a:hover {
-    color: #90bfc5;
+    color: #c7ebf0;
 }
 
 .content {
@@ -69,7 +69,7 @@ section {
 
 h2 {
     font-size: 3em;
-    color: #90bfc5;
+    color: #191e69;
     font-weight: 400;
     margin-bottom: 20px;
 }
