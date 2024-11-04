@@ -20,7 +20,7 @@
                 <li><a href="#research">RESEARCH</a></li>
                 <li><a href="#deepverse">DEEPVERSE</a></li>
                 <li><a href="#projects">PROJECTS</a></li>
-                <li><a href="#contacts">CONTACTS</a></li>
+                <li><a href="#contacts">CONTACT ME</a></li>
             </ul>
         </nav>
     </div>
@@ -60,13 +60,26 @@
             <p></p>
         </section>
         <section id="contacts">
-            <h3>CONTACTS</h3>
+            <h3>CONTACT ME</h3>
             <p>
             <a href="https://www.linkedin.com/in/william-de-melo-240a151a1/"><img src="images/linkedin.jpg" width="50" height="50" title="Connect with me on LinkedIn"></a>
             <a href="https://github.com/willdemelo"><img src="images/github.jpg" width="50" height="50" title="Find me on GitHub"></a>
-            <a href="mailto:wdemelo@ucsd.edu"><img src="images/gmail.jpg" width="50" height="50" title="Shoot me an email"></a>
+            <br>
+            <form action="https://formspree.io/f/xeoqayjq" method="POST">
+                <input type="text" name="Name" placeholder="Enter your name" required>
+                <input type="email" name="Email" placeholder="Enter your email address" required>
+                <select name="choice" required>
+                    <option value="">What did you want to contact me for?</option>
+                    <option value="1">Job Opportunity</option>
+                    <option value="2">Collaboration</option>
+                    <option value="3">Inquiry about my Profile</option>
+                    <option value="4">Other</option>
+                    </select>
+                <textarea name="Message" placeholder="Enter your message" cols="50" rows="5" required></textarea>
+                <button type="reset">Reset Form</button>
+                <button type="submit">Submit Form</button>
+                </form>
             </p>
         </section>
-    </div>
 </body>
 </html>
