@@ -16,7 +16,7 @@ body {
 .sidebar {
     background-color: #2b3075;
     color: #1a1480;
-    width: 250px;
+    width: 400px;
     height: 100vh;
     position: fixed;
     display: flex;
@@ -34,7 +34,7 @@ body {
 
 .name {
     color: #48afcf;
-    font-weight: 300;
+    font-weight: 250;
     margin-bottom: 30px;
     text-align: center;
 }
