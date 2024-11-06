@@ -20,7 +20,7 @@
                 <li><a href="#CV">CV</a></li>
                 <li><a href="#deepverse">DEEPVERSE</a></li>
                 <li><a href="#research">RESEARCH</a></li>
-<!--                 <li><a href="#projects">PROJECTS</a></li> -->
+                <li><a href="#projects">PROJECTS</a></li>
                 <li><a href="#contacts">CONTACT ME</a></li>
             </ul>
         </nav>
@@ -54,7 +54,8 @@
             <p>
                 The <i>DeepVerse</i> series of projects are meant to bridge the gap between AI tools and social sciences by designing wrappers for machine learning software.
                 We aim to assist social scientists in their research by providing these easy-to-use tools for free and completely open-source.
-                Our ongoing projects include:
+                We are currently working on the publication of DeepComplete, a software package that uses autoencoding and adverserial neural networks to impute missing data.
+                This novel approach has several advantages over traditional imputation tools, and can fit a broader range of application with increased precision.
             <br>
             Find out more here:
             <a href="https://github.com/DeepVerseLib"><img src="images/deepverse.jpg" width="50" height="50" title="Go to the DeepVerse Github page"></a>
@@ -95,10 +96,37 @@
             allowfullscreen
             ></iframe>
         </section>
-<!--         <section id="projects">
+        <section id="projects">
             <h2>PROJECTS</h2>
-            <p></p>
-        </section> -->
+            <p>
+            These are some of the independent projects that I update regularly. You can find all of the materials, and my other projects, on my <a href="https://github.com/willdemelo">GitHub.</a>
+            </p>
+            <h3><a href="https://github.com/willdemelo/Machine_Learning_for_Emotional_Intelligence">Machine Learning for Emotional Intelligence</a></h3>
+            <p>
+            In this project, I combine two machine learning models in order to predict people's emotions.
+            I use a convolutional multilayer perceptron trained on images of people's facial expressions to infer emotion from one's countenance.
+            I also use a text classifier trained on emotionally charged short phrases to infer emotion from text.
+            Using a soft voting ensemble, I weigh and add the outputs of both models to produce a combined prediction.
+            This ensemble can infer emotions from image-text pairs with around 52% accuracy.
+            </p>
+            <figure>
+                <img src="images/mleq.jpg" width="100%">
+                <figcaption>Accuracy in predicting emotion for each of the models I employed.</figcaption>
+            </figure>
+            <h3><a href="https://github.com/willdemelo/Predicting_Depression_in_Florida">Predicting Depression in Florida</a></h3>
+            <p>
+            Using machine learning, I attempt to impute missing data on depression rates in Floridian counties.
+            I do this by classifying data for all other US counties as belonging to one of four nationwide quartiles for depressive rates, and using a variety of machine learning models to classify Floridian counties based on which quartile they belong to.
+            The data used by these models to predict depressive rates comes from various sources, from basic demographics to crime rates and epidemiology.
+            I test out six different machine learning models, finding that a Support Vector Classifier (SVC) works best at predicting depression rates with 72% accuracy.
+            Then, to combine their strengths, I combine my models' predictions together to have them "vote" on their preedictions for depressive rates in Floridian counties.
+            Overall, my models predict floridian counties as being less mentally healthy by having higher rates of depression on average, with the exception of Miami-Dade county, which is projected to be in the top quartile of least depressed counties in the US.
+            <figure>
+                <img src="images/pdfl.jpg" width="100%">
+                <figcaption>The confusion matrix for my SVC model. </figcaption>
+            </figure>
+            </p>
+        </section>
         <section id="contacts">
             <h2>CONTACT ME</h2>
             <p>
