@@ -1,2 +1,2 @@
 # willdemelo.github.io
-This is my personal website. You can read about my interests and experiences here.
+This is my personal website. You can view my HTML and CSS code here, or navigate to willdemelo.github.io in your browser to see the rendered website.
