@@ -53,16 +53,16 @@
         <section id="deepverse">
             <h2>DEEPVERSE</h2>
             <p>
-                The <i>DeepVerse</i> series of projects are meant to bridge the gap between AI tools and the social sciences by designing wrappers for machine learning software.
+                The <i>DeepVerse</i> series of projects are meant to bridge the gap between AI tools and the social sciences by designing easy-to-use wrappers for complex machine learning software.
                 We aim to assist social scientists in their research by providing these easy-to-use tools for free and completely open-source.
-                We are currently working on the publication of <i>DeepComplete</i>, a software package that uses autoencoding and adversarial neural networks to impute missing data.
-                This novel approach has several advantages over traditional imputation tools, and can fit a broader range of applications with increased precision.
-                Additionally, despite the complexities of designing and implementing neural network architecture, we plan to greatly simplify the interface so that anyone can use it.
+                We are currently working on the publication of <i>DeepComplete</i>, a software package that uses an adversarial autoencoder to impute missing data, in the Journal of Statistical Software (JSS).
+                This novel approach has several advantages over traditional imputation tools; for instance, demonstrating greater performance than MIDAS and being able to impute missing pixels and image data.
+                We also have plans to introduce text imputation in the future, where the model will be able to generate text to fill in missing words or sentences in a given text.
                 <br>
                 <br>
                 Check out the slides used to present DeepComplete at the 2025 Midwestern Political Science Association conference here:
                 <br>
-                <iframe src="slides/pres.slides.html" width="80%" height="600"></iframe>
+                <iframe src="slides/pres.slides.html" width="100%" height="800px"></iframe>
                 <br>
                 <br>
                 Please contact me to find out more!
@@ -71,10 +71,10 @@
         </section>
         <section id="research">
             <h2>RESEARCH</h2>
-            <h3>Papers</h3>
             <p>
                 These are some of the research projects that I've worked on in the past. You can find all of the materials, and my other projects, on my <a href="https://github.com/willdemelo">GitHub.</a>
             </p>
+            <h3>Papers</h3>
             <h4>Text Vectorization in Predicting False Job Postings</h4>
             <p>
                 This project explores the use of Support Vector Classification (SVC) and TF-IDF vectorization to detect fake job listings from a dataset of 18,000 postings.
@@ -82,6 +82,7 @@
                 We compare two preprocessing strategies: one that independently vectorizes each field of text included in a given job description (e.g., job description, requirements), and another that combines all text fields before vectorization.
                 While both models achieved high accuracy, with F1 scores above 0.90 after threshold optimization, the combined-text model slightly outperformed the separate-vectorizer model in recall.
                 Our findings emphasize that preprocessing choices can meaningfully affect model behavior, even when overall performance metrics appear similar.
+                You can view the <a href = "https://github.com/willdemelo/Fraudulent_Job_Posting_Detector"> GitHub page</a> for this project here.
             </p>
             <iframe src="docs/text_vect_project.pdf#toolbar=0" width="100%" height="800px" allowfullscreen></iframe>
             <br>
@@ -94,7 +95,7 @@
                 the data in R, and elaborating on why our study failed to replicate. I also designed the experiment portion and data pipeline of the website we used to collect data.
                 You can read the full write-up <a href = "https://rpubs.com/willdemelo/smrepstudy"> here</a>, or view the <a href = "https://github.com/willdemelo/Replication_Study_Suk2023"> GitHub page.</a>
             </p>
-            <iframe src="/docs/donation_writeup.html" width="100%" height="800px" allow="autoplay" allowfullscreen></iframe>
+            <iframe src="docs/donation_writeup.html" width="100%" height="800px" allow="autoplay" allowfullscreen></iframe>
             <br>
             <h4>Reproduction of Brooke et al. (2023)</h4>
             <p>
